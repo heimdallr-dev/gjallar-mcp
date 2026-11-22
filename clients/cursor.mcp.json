@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gjallar": {
+      "url": "https://gjallar-mcp.example.com/mcp",
+      "headers": { "Authorization": "Bearer <token from `gjallar login`>" }
+    }
+  }
+}

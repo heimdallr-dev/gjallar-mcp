@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "gjallar": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote@0.16.5", "https://gjallar-mcp.example.com/mcp", "--header", "Authorization:Bearer ${GJALLAR_TOKEN}"],
+      "env": { "GJALLAR_TOKEN": "<token from `gjallar login`>" }
+    }
+  }
+}

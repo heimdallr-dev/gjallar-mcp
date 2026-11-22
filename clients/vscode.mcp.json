@@ -1,0 +1,10 @@
+{
+  "inputs": [{ "id": "gjallar-token", "type": "promptString", "description": "Gjallar access token (gjallar login)", "password": true }],
+  "servers": {
+    "gjallar": {
+      "type": "http",
+      "url": "https://gjallar-mcp.example.com/mcp",
+      "headers": { "Authorization": "Bearer ${input:gjallar-token}" }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "gjallar": {
+      "type": "http",
+      "url": "https://gjallar-mcp.example.com/mcp",
+      "headers": { "Authorization": "Bearer ${GJALLAR_TOKEN}" }
+    }
+  }
+}
